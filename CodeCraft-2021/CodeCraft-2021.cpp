@@ -29,7 +29,7 @@ unordered_map<string,vector<int>> vmOnServer;
 //#ifdef TEST
 //    const string filePath = "../training-data/training-1.txt";
 //#endif
-const string filePath = "../training-data/training-2.txt";
+//const string filePath = "../training-data/training-2.txt";
 // 成本
 long long SERVERCOST = 0,POWERCOST=0,TOTALCOST =0;
 
@@ -277,7 +277,7 @@ int main() {
 //#ifdef TEST
 //    std::freopen(filePath.c_str(),"rb",stdin);
 //#endif
-    std::freopen(filePath.c_str(),"rb",stdin);
+    //std::freopen(filePath.c_str(),"rb",stdin);
     int serverNum;
     string serverType,cpuCores,memorySize,serverCost,powerCost;
     scanf("%d",&serverNum);
